@@ -10,6 +10,6 @@
 using namespace std;
 
 int main() {
-	cout << "AI game playing agent for the game of CS:GO" << endl; // prints AI game playing agent for the game of CS:GO
+	cout << "Checking the git remote connection" << endl;
 	return 0;
 }
