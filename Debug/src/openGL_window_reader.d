@@ -1,4 +1,4 @@
-src/AI_plays_CS.o: ../src/AI_plays_CS.cpp \
+src/openGL_window_reader.o: ../src/openGL_window_reader.cpp \
  ../src/include/openGL_window_reader.h
 
 ../src/include/openGL_window_reader.h:

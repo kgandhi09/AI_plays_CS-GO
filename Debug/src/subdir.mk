@@ -4,13 +4,16 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../src/AI_plays_CS.cpp 
+../src/AI_plays_CS.cpp \
+../src/openGL_window_reader.cpp 
 
 OBJS += \
-./src/AI_plays_CS.o 
+./src/AI_plays_CS.o \
+./src/openGL_window_reader.o 
 
 CPP_DEPS += \
-./src/AI_plays_CS.d 
+./src/AI_plays_CS.d \
+./src/openGL_window_reader.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

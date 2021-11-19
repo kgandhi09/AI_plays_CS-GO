@@ -7,9 +7,11 @@
 //============================================================================
 
 #include <iostream>
+#include "include/openGL_window_reader.h"
 using namespace std;
 
 int main() {
-	cout << "Checking the git remote connection" << endl;
+	window_reader* w_reader = new window_reader();
+	w_reader->readWindow();
 	return 0;
 }
